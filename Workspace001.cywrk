@@ -8,6 +8,7 @@
 <files />
 <projects>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj</v>
+<v>.\MyLibrary.cylib\MyLibrary.cyprj</v>
 </projects>
 <workspace_id v="af28aaf9-007e-4e62-a604-dd47947969b8" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

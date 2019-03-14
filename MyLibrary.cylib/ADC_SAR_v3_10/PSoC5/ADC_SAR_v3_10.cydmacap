@@ -40,7 +40,7 @@
 
 <DMACapability>
 
-  <Category name="SAR_ADC" 
+  <Category name="SAR_ADC_16" 
             enabled="true" 
             bytes_in_burst="2"
             bytes_in_burst_is_strict="true" 
@@ -50,4 +50,14 @@
     <Location name="`$INSTANCE_NAME`_SAR_WRK0_PTR" enabled="true" direction="source"/>
   </Category>
   
+  <Category name="SAR_ADC_8" 
+            enabled="true" 
+            bytes_in_burst="1"
+            bytes_in_burst_is_strict="true" 
+            spoke_width="2" 
+            inc_addr="false" 
+            each_burst_req_request="true">
+    <Location name="`$INSTANCE_NAME`_SAR_WRK0_PTR" enabled="true" direction="source"/>
+  </Category>
+
 </DMACapability>
